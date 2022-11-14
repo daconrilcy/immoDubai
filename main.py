@@ -1,16 +1,14 @@
-# This is a sample Python script.
+from algosites import blueground
+import currency
+from algosites.annonce_obj.location import mem_locations
+from algosites.blueground import CatchData as bg_CatchData
 
-# Press Maj+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+# currencies = currency.mainfunction()
+# print(currencies.aed.convert_in_euros)
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+# blueground.mainfunction()
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# ct_blue = bg_CatchData()
+# print(ct_blue.json_file)
+mem_locations()
